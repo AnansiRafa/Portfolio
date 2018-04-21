@@ -8,7 +8,7 @@ window.addEventListener('load', function(){
 
   emailInput.addEventListener('blur', function() {
     if (emailInput.value == "") {
-      alert("You didn't give me an email address. I AM LONELY AND DESIRE COMMUNICATION")
+      alert("You didn't give me an email address.")
       emailInput.style.border = "3px solid crimson";}
     })
   });
